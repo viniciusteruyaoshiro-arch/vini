@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro</title>
+
+<style>
+
+body{
+    background: linear-gradient(to right, #d9d9d9, #a8a8a8);
+    font-family: Arial;
+}
+
+/* caixa do formulário */
+.formulario{
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px auto;
+    box-shadow: 0px 0px 10px gray;
+}
+
+/* título */
+h1{
+    text-align: center;
+}
+
+/* labels */
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+/* inputs */
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+/* botão */
+button{
+    width: 100%;
+    height: 35px;
+    margin-top: 15px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="formulario">
+
+<h1>Cadastro</h1>
+
+<form>
+
+<label>Nome:</label>
+<input type="text">
+
+<label>Idade:</label>
+<input type="number">
+
+<label>Cidade:</label>
+<input type="text">
+
+<label>E-mail:</label>
+<input type="email">
+
+<label>Endereço:</label>
+<input type="text">
+
+<label>CPF:</label>
+<input type="text">
+
+<button>Cadastrar</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
